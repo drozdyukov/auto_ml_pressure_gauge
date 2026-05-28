@@ -1,0 +1,68 @@
+{
+  "created_at_unix": 1779816303.2175882,
+  "dataset": {
+    "train": {
+      "images": 12489,
+      "annotations": 50512,
+      "categories": [
+        "base",
+        "base",
+        "maximum",
+        "minimum",
+        "tip"
+      ]
+    },
+    "valid": {
+      "images": 3591,
+      "annotations": 14519,
+      "categories": [
+        "base",
+        "base",
+        "maximum",
+        "minimum",
+        "tip"
+      ]
+    },
+    "test": {
+      "images": 1794,
+      "annotations": 7232,
+      "categories": [
+        "base",
+        "base",
+        "maximum",
+        "minimum",
+        "tip"
+      ]
+    }
+  },
+  "class_distribution": {
+    "train": {
+      "base": 12506,
+      "tip": 13012,
+      "minimum": 12594,
+      "maximum": 12400
+    },
+    "valid": {
+      "minimum": 3612,
+      "maximum": 3569,
+      "base": 3599,
+      "tip": 3739
+    },
+    "test": {
+      "minimum": 1808,
+      "maximum": 1778,
+      "base": 1796,
+      "tip": 1850
+    }
+  },
+  "infrastructure": {
+    "cpu_count": 12,
+    "memory_total_gb": 31.93,
+    "memory_available_gb": 19.49,
+    "gpu": {
+      "name": "NVIDIA GeForce RTX 3060",
+      "memory_mb": "12288",
+      "driver_version": "591.86"
+    }
+  }
+}

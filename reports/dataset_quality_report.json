@@ -1,0 +1,1539 @@
+{
+  "expected_classes": [
+    "base",
+    "maximum",
+    "minimum",
+    "tip"
+  ],
+  "splits": {
+    "train": {
+      "images": 12489,
+      "annotations": 50512,
+      "valid_images": 12363,
+      "invalid_images": 126,
+      "empty_images": 0,
+      "class_distribution": {
+        "base": 12506,
+        "tip": 13012,
+        "minimum": 12594,
+        "maximum": 12400
+      }
+    },
+    "valid": {
+      "images": 3591,
+      "annotations": 14519,
+      "valid_images": 3557,
+      "invalid_images": 34,
+      "empty_images": 0,
+      "class_distribution": {
+        "minimum": 3612,
+        "maximum": 3569,
+        "base": 3599,
+        "tip": 3739
+      }
+    },
+    "test": {
+      "images": 1794,
+      "annotations": 7232,
+      "valid_images": 1768,
+      "invalid_images": 26,
+      "empty_images": 0,
+      "class_distribution": {
+        "minimum": 1808,
+        "maximum": 1778,
+        "base": 1796,
+        "tip": 1850
+      }
+    }
+  },
+  "issues": [
+    {
+      "split": "train",
+      "image_id": 111,
+      "file_name": "pressureGauge_346_jpg.rf.648aff26adb60920e030a043f1182e2e.jpg",
+      "reasons": [
+        "image is missing required classes: tip"
+      ]
+    },
+    {
+      "split": "train",
+      "image_id": 133,
+      "file_name": "240_F_278663360_qgbp5UJW67cKcKX56meDzaOBP8431Zeh_jpg.rf.971fbe37d9eae1f182610c5749c0e539.jpg",
+      "reasons": [
+        "image is missing required classes: maximum"
+      ]
+    },
+    {
+      "split": "train",
+      "image_id": 229,
+      "file_name": "4529260-24_jpg.rf.6a9680e5811acac4dc412d24ecda2004.jpg",
+      "reasons": [
+        "image is missing required classes: minimum"
+      ]
+    },
+    {
+      "split": "train",
+      "image_id": 245,
+      "file_name": "IMG_6339_JPG_jpg.rf.4716b69c78f0644dd85fd307743b7c5c.jpg",
+      "reasons": [
+        "image is missing required classes: maximum"
+      ]
+    },
+    {
+      "split": "train",
+      "image_id": 487,
+      "file_name": "IMG_6361_JPG_jpg.rf.e5779789eb76cb75c4985b4042c06e32.jpg",
+      "reasons": [
+        "image is missing required classes: maximum"
+      ]
+    },
+    {
+      "split": "train",
+      "image_id": 615,
+      "file_name": "240_F_258386509_PcJgP4gZpHcHMmmR1t1uG0ui6OQsxJUC_jpg.rf.ef1f5cea3c3ae3942ef1c9778414ac34.jpg",
+      "reasons": [
+        "image is missing required classes: maximum"
+      ]
+    },
+    {
+      "split": "train",
+      "image_id": 693,
+      "file_name": "40868b20d5424b22bfdd31865984b172_jpeg_jpg.rf.6bea7704aebe3e6d8252aee8e5b1b913.jpg",
+      "reasons": [
+        "image is missing required classes: maximum"
+      ]
+    },
+    {
+      "split": "train",
+      "image_id": 721,
+      "file_name": "4529260-24_jpg.rf.c3d43d99a84fa2f3ced19d2a687ed301.jpg",
+      "reasons": [
+        "image is missing required classes: minimum"
+      ]
+    },
+    {
+      "split": "train",
+      "image_id": 863,
+      "file_name": "IMG_6361_JPG_jpg.rf.d59ce775622a16bd219ef4a2e9ce5c08.jpg",
+      "reasons": [
+        "image is missing required classes: maximum"
+      ]
+    },
+    {
+      "split": "train",
+      "image_id": 1002,
+      "file_name": "7761374d7d614b8196a87ac9537e7c53_jpeg_jpg.rf.c61fe9e9b2ba5412232c221ebca775ed.jpg",
+      "reasons": [
+        "image is missing required classes: minimum"
+      ]
+    },
+    {
+      "split": "train",
+      "image_id": 1295,
+      "file_name": "istockphoto-1271631693-612x612_jpg.rf.d2adbd26c15a224161a0fb58c01cf3d7.jpg",
+      "reasons": [
+        "image is missing required classes: maximum"
+      ]
+    },
+    {
+      "split": "train",
+      "image_id": 1404,
+      "file_name": "240_F_258386509_PcJgP4gZpHcHMmmR1t1uG0ui6OQsxJUC_jpg.rf.20af90596c4fe0f6adc68dd4bec69d64.jpg",
+      "reasons": [
+        "image is missing required classes: maximum"
+      ]
+    },
+    {
+      "split": "train",
+      "image_id": 1479,
+      "file_name": "40868b20d5424b22bfdd31865984b172_jpeg_jpg.rf.12f2b50c64252e9eb656683b05376f63.jpg",
+      "reasons": [
+        "image is missing required classes: maximum"
+      ]
+    },
+    {
+      "split": "train",
+      "image_id": 1575,
+      "file_name": "istockphoto-1332836893-612x612_jpg.rf.2446427b30c2135a8d88ba340ad4ee78.jpg",
+      "reasons": [
+        "image is missing required classes: maximum"
+      ]
+    },
+    {
+      "split": "train",
+      "image_id": 1612,
+      "file_name": "istockphoto-177506603-612x612_jpg.rf.1cf7ea08649624e43410dfbb77bfc2b7.jpg",
+      "reasons": [
+        "image is missing required classes: maximum"
+      ]
+    },
+    {
+      "split": "train",
+      "image_id": 1626,
+      "file_name": "istockphoto-1332836893-612x612_jpg.rf.d5aa874d07cafbc5aaa5799a0e0d0117.jpg",
+      "reasons": [
+        "image is missing required classes: maximum"
+      ]
+    },
+    {
+      "split": "train",
+      "image_id": 1635,
+      "file_name": "istockphoto-119048610-612x612_jpg.rf.912b086d930cd426b33ba376fdada1ff.jpg",
+      "reasons": [
+        "image is missing required classes: maximum"
+      ]
+    },
+    {
+      "split": "train",
+      "image_id": 1745,
+      "file_name": "istockphoto-1271631693-612x612_jpg.rf.cbf1fd1f9edfb4fd18d6712fffea7229.jpg",
+      "reasons": [
+        "image is missing required classes: maximum"
+      ]
+    },
+    {
+      "split": "train",
+      "image_id": 2012,
+      "file_name": "48_jpeg_jpg.rf.c99b835eb2da1848113c0d621912cb7d.jpg",
+      "reasons": [
+        "image is missing required classes: maximum"
+      ]
+    },
+    {
+      "split": "train",
+      "image_id": 2047,
+      "file_name": "istockphoto-177506603-612x612_jpg.rf.615e811a0144dd94b56119969633a889.jpg",
+      "reasons": [
+        "image is missing required classes: maximum"
+      ]
+    },
+    {
+      "split": "train",
+      "image_id": 2093,
+      "file_name": "240_F_278663360_qgbp5UJW67cKcKX56meDzaOBP8431Zeh_jpg.rf.4d425bfb858f07307a5a64503281794a.jpg",
+      "reasons": [
+        "image is missing required classes: maximum"
+      ]
+    },
+    {
+      "split": "train",
+      "image_id": 2243,
+      "file_name": "IMG_6361_JPG_jpg.rf.f77646e0b00f575c2855d424e9fd21e1.jpg",
+      "reasons": [
+        "image is missing required classes: maximum"
+      ]
+    },
+    {
+      "split": "train",
+      "image_id": 2270,
+      "file_name": "240_F_498591925_ViMzD0Y8mukwD44KhmLMQHOSUlakFAgj_jpg.rf.53b67d6fffb6a16d23a8a0ec342e40f7.jpg",
+      "reasons": [
+        "image is missing required classes: minimum"
+      ]
+    },
+    {
+      "split": "train",
+      "image_id": 2296,
+      "file_name": "4529260-24_jpg.rf.e00ddb7d5c54b4a58f119616c2711ed9.jpg",
+      "reasons": [
+        "image is missing required classes: minimum"
+      ]
+    },
+    {
+      "split": "train",
+      "image_id": 2506,
+      "file_name": "Gauges-AMP-AMT-AMZ-TX-series_jpg.rf.295ffef331d8da93b9af7d590af0d99c.jpg",
+      "reasons": [
+        "image is missing required classes: maximum"
+      ]
+    },
+    {
+      "split": "train",
+      "image_id": 2815,
+      "file_name": "istockphoto-177506603-612x612_jpg.rf.910e8a3511d433c366c412bec3ed72c7.jpg",
+      "reasons": [
+        "image is missing required classes: maximum"
+      ]
+    },
+    {
+      "split": "train",
+      "image_id": 2818,
+      "file_name": "c39cd510c5fd498fb0835eb36fedfb7f_jpeg_jpg.rf.a726fd5ecab69ed81c91f0507d8e2697.jpg",
+      "reasons": [
+        "image is missing required classes: maximum"
+      ]
+    },
+    {
+      "split": "train",
+      "image_id": 2833,
+      "file_name": "240_F_258386509_PcJgP4gZpHcHMmmR1t1uG0ui6OQsxJUC_jpg.rf.ca4380d1963bc1e2ef67c58081272a45.jpg",
+      "reasons": [
+        "image is missing required classes: maximum"
+      ]
+    },
+    {
+      "split": "train",
+      "image_id": 2845,
+      "file_name": "240_F_498591925_ViMzD0Y8mukwD44KhmLMQHOSUlakFAgj_jpg.rf.24406d23a894a22859ae1ee15df39294.jpg",
+      "reasons": [
+        "image is missing required classes: minimum"
+      ]
+    },
+    {
+      "split": "train",
+      "image_id": 2930,
+      "file_name": "istockphoto-1271631693-612x612_jpg.rf.378f5b4606ebd76a6de532306456cb24.jpg",
+      "reasons": [
+        "image is missing required classes: maximum"
+      ]
+    },
+    {
+      "split": "train",
+      "image_id": 2985,
+      "file_name": "istockphoto-1271631693-612x612_jpg.rf.b597a52974c5a521c2d1bd9a426548f3.jpg",
+      "reasons": [
+        "image is missing required classes: maximum"
+      ]
+    },
+    {
+      "split": "train",
+      "image_id": 3089,
+      "file_name": "IMG_6339_JPG_jpg.rf.7c8e19b942e4515c5f832386c60826c1.jpg",
+      "reasons": [
+        "image is missing required classes: maximum"
+      ]
+    },
+    {
+      "split": "train",
+      "image_id": 3297,
+      "file_name": "4529260-24_jpg.rf.b1f7ed3855fbb709e4a859aa6b20cd54.jpg",
+      "reasons": [
+        "image is missing required classes: minimum"
+      ]
+    },
+    {
+      "split": "train",
+      "image_id": 3457,
+      "file_name": "pressureGauge_346_jpg.rf.81d91ec36285661001ce22618da4f1c6.jpg",
+      "reasons": [
+        "image is missing required classes: tip"
+      ]
+    },
+    {
+      "split": "train",
+      "image_id": 3676,
+      "file_name": "istockphoto-1332836893-612x612_jpg.rf.6a83f4254d04c6f674703aa8b96c02ae.jpg",
+      "reasons": [
+        "image is missing required classes: maximum"
+      ]
+    },
+    {
+      "split": "train",
+      "image_id": 3726,
+      "file_name": "Gauges-AMP-AMT-AMZ-TX-series_jpg.rf.1b7bb1c2b9e1aeb5bc0f7ba7701698fe.jpg",
+      "reasons": [
+        "image is missing required classes: maximum"
+      ]
+    },
+    {
+      "split": "train",
+      "image_id": 3753,
+      "file_name": "240_F_498591925_ViMzD0Y8mukwD44KhmLMQHOSUlakFAgj_jpg.rf.72eceb2fbef51a863355124ebfce9e23.jpg",
+      "reasons": [
+        "image is missing required classes: minimum"
+      ]
+    },
+    {
+      "split": "train",
+      "image_id": 3763,
+      "file_name": "istockphoto-540208830-612x612_jpg.rf.01799de27eb44d099a8222fd1c496d2c.jpg",
+      "reasons": [
+        "image is missing required classes: maximum"
+      ]
+    },
+    {
+      "split": "train",
+      "image_id": 3860,
+      "file_name": "Oil-Pressure-Gauge-A2C53413310-S__39334-1563979529_jpg.rf.c8ca9a86699dee80ae8817e8add5506b.jpg",
+      "reasons": [
+        "image is missing required classes: maximum"
+      ]
+    },
+    {
+      "split": "train",
+      "image_id": 4113,
+      "file_name": "240_F_278663360_qgbp5UJW67cKcKX56meDzaOBP8431Zeh_jpg.rf.9ec4fefb028067486878ff993830a2c6.jpg",
+      "reasons": [
+        "image is missing required classes: maximum"
+      ]
+    },
+    {
+      "split": "train",
+      "image_id": 4162,
+      "file_name": "Gauges-AMP-AMT-AMZ-TX-series_jpg.rf.dac79e8959bcc6919022aa1a81730096.jpg",
+      "reasons": [
+        "image is missing required classes: maximum"
+      ]
+    },
+    {
+      "split": "train",
+      "image_id": 4191,
+      "file_name": "istockphoto-177506603-612x612_jpg.rf.7801eec12070784d44c76db671cbabbe.jpg",
+      "reasons": [
+        "image is missing required classes: maximum"
+      ]
+    },
+    {
+      "split": "train",
+      "image_id": 4194,
+      "file_name": "Oil-Pressure-Gauge-A2C53413310-S__39334-1563979529_jpg.rf.7d069433e95fe7993b7f0fbac6fd4c3b.jpg",
+      "reasons": [
+        "image is missing required classes: maximum"
+      ]
+    },
+    {
+      "split": "train",
+      "image_id": 4214,
+      "file_name": "IMG_6361_JPG_jpg.rf.727b7d3aae812064a3a35e0faecc9b3c.jpg",
+      "reasons": [
+        "image is missing required classes: maximum"
+      ]
+    },
+    {
+      "split": "train",
+      "image_id": 4267,
+      "file_name": "istockphoto-1332836893-612x612_jpg.rf.8c899b9c599bedf639c2402eea6cd6ca.jpg",
+      "reasons": [
+        "image is missing required classes: maximum"
+      ]
+    },
+    {
+      "split": "train",
+      "image_id": 4308,
+      "file_name": "240_F_258386509_PcJgP4gZpHcHMmmR1t1uG0ui6OQsxJUC_jpg.rf.e55119e2bfcd738bb01505440911c8e6.jpg",
+      "reasons": [
+        "image is missing required classes: maximum"
+      ]
+    },
+    {
+      "split": "train",
+      "image_id": 4495,
+      "file_name": "48_jpeg_jpg.rf.7d39088decc6c8205b0763fc58a66125.jpg",
+      "reasons": [
+        "image is missing required classes: maximum"
+      ]
+    },
+    {
+      "split": "train",
+      "image_id": 4550,
+      "file_name": "Oil-Pressure-Gauge-A2C53413310-S__39334-1563979529_jpg.rf.5539d87cace0a74ab6b62588f981e470.jpg",
+      "reasons": [
+        "image is missing required classes: maximum"
+      ]
+    },
+    {
+      "split": "train",
+      "image_id": 4603,
+      "file_name": "40868b20d5424b22bfdd31865984b172_jpeg_jpg.rf.fd0566f7acb03ef81c016d88cb7d6ef3.jpg",
+      "reasons": [
+        "image is missing required classes: maximum"
+      ]
+    },
+    {
+      "split": "train",
+      "image_id": 4627,
+      "file_name": "istockphoto-119048610-612x612_jpg.rf.7b934b8ed2b5c2a3cd2173b42b9bf71a.jpg",
+      "reasons": [
+        "image is missing required classes: maximum"
+      ]
+    },
+    {
+      "split": "train",
+      "image_id": 4677,
+      "file_name": "istockphoto-177506603-612x612_jpg.rf.b87cc5646be9b9539104955258396ba2.jpg",
+      "reasons": [
+        "image is missing required classes: maximum"
+      ]
+    },
+    {
+      "split": "train",
+      "image_id": 4870,
+      "file_name": "istockphoto-1271631693-612x612_jpg.rf.efd5a70192928efc5d454d273c25fff8.jpg",
+      "reasons": [
+        "image is missing required classes: maximum"
+      ]
+    },
+    {
+      "split": "train",
+      "image_id": 4894,
+      "file_name": "istockphoto-177506603-612x612_jpg.rf.e05a897a615b519272cdf84f8ca99f82.jpg",
+      "reasons": [
+        "image is missing required classes: maximum"
+      ]
+    },
+    {
+      "split": "train",
+      "image_id": 5085,
+      "file_name": "istockphoto-1332836893-612x612_jpg.rf.2d6a7b791be9e17aeddc17492eef705f.jpg",
+      "reasons": [
+        "image is missing required classes: maximum"
+      ]
+    },
+    {
+      "split": "train",
+      "image_id": 5189,
+      "file_name": "240_F_498591925_ViMzD0Y8mukwD44KhmLMQHOSUlakFAgj_jpg.rf.de378bd61025d55fa6eaac4b5cb2acee.jpg",
+      "reasons": [
+        "image is missing required classes: minimum"
+      ]
+    },
+    {
+      "split": "train",
+      "image_id": 5204,
+      "file_name": "istockphoto-1271631693-612x612_jpg.rf.e1eaafdbe81637200c398d417d9ab312.jpg",
+      "reasons": [
+        "image is missing required classes: maximum"
+      ]
+    },
+    {
+      "split": "train",
+      "image_id": 5545,
+      "file_name": "istockphoto-177506603-612x612_jpg.rf.9cc89bc14c0821acd15dcade7456a17d.jpg",
+      "reasons": [
+        "image is missing required classes: maximum"
+      ]
+    },
+    {
+      "split": "train",
+      "image_id": 5579,
+      "file_name": "Gauges-AMP-AMT-AMZ-TX-series_jpg.rf.57a18f6ed3c2007dfdd44c81b8ae950a.jpg",
+      "reasons": [
+        "image is missing required classes: maximum"
+      ]
+    },
+    {
+      "split": "train",
+      "image_id": 5619,
+      "file_name": "IMG_6339_JPG_jpg.rf.881ad171ad52537ff5324658d3d62763.jpg",
+      "reasons": [
+        "image is missing required classes: maximum"
+      ]
+    },
+    {
+      "split": "train",
+      "image_id": 5904,
+      "file_name": "IMG_6339_JPG_jpg.rf.26ddf972bddbd0b0602d208529574776.jpg",
+      "reasons": [
+        "image is missing required classes: maximum"
+      ]
+    },
+    {
+      "split": "train",
+      "image_id": 5940,
+      "file_name": "IMG_6361_JPG_jpg.rf.a386433aa308c54d9ec37f0f84fc4fca.jpg",
+      "reasons": [
+        "image is missing required classes: maximum"
+      ]
+    },
+    {
+      "split": "train",
+      "image_id": 6178,
+      "file_name": "240_F_278663360_qgbp5UJW67cKcKX56meDzaOBP8431Zeh_jpg.rf.8a390d635b191aa50914c7a6e5714cea.jpg",
+      "reasons": [
+        "image is missing required classes: maximum"
+      ]
+    },
+    {
+      "split": "train",
+      "image_id": 6363,
+      "file_name": "240_F_258386509_PcJgP4gZpHcHMmmR1t1uG0ui6OQsxJUC_jpg.rf.6a81ffb5010aa922d634a28a007dbb3f.jpg",
+      "reasons": [
+        "image is missing required classes: maximum"
+      ]
+    },
+    {
+      "split": "train",
+      "image_id": 6549,
+      "file_name": "IMG_6339_JPG_jpg.rf.a648fc2c839836dea58678aa28d2803c.jpg",
+      "reasons": [
+        "image is missing required classes: maximum"
+      ]
+    },
+    {
+      "split": "train",
+      "image_id": 6750,
+      "file_name": "istockphoto-540208830-612x612_jpg.rf.a91673982f76a36075a909a7df2a1514.jpg",
+      "reasons": [
+        "image is missing required classes: maximum"
+      ]
+    },
+    {
+      "split": "train",
+      "image_id": 6871,
+      "file_name": "istockphoto-119048610-612x612_jpg.rf.c9705772c40b3dd0510d46c12cf71664.jpg",
+      "reasons": [
+        "image is missing required classes: maximum"
+      ]
+    },
+    {
+      "split": "train",
+      "image_id": 6909,
+      "file_name": "istockphoto-119048610-612x612_jpg.rf.71690d1d5c7234c0de5371abdf53881d.jpg",
+      "reasons": [
+        "image is missing required classes: maximum"
+      ]
+    },
+    {
+      "split": "train",
+      "image_id": 6987,
+      "file_name": "7761374d7d614b8196a87ac9537e7c53_jpeg_jpg.rf.2d9df4c33ce99b8e49bff28a252bcdf7.jpg",
+      "reasons": [
+        "image is missing required classes: minimum"
+      ]
+    },
+    {
+      "split": "train",
+      "image_id": 7034,
+      "file_name": "40868b20d5424b22bfdd31865984b172_jpeg_jpg.rf.142b100719e2837db3a6f46fbf213129.jpg",
+      "reasons": [
+        "image is missing required classes: maximum"
+      ]
+    },
+    {
+      "split": "train",
+      "image_id": 7256,
+      "file_name": "48_jpeg_jpg.rf.1caeb82759bcb78d6ec04efb310f5327.jpg",
+      "reasons": [
+        "image is missing required classes: maximum"
+      ]
+    },
+    {
+      "split": "train",
+      "image_id": 7286,
+      "file_name": "Gauges-AMP-AMT-AMZ-TX-series_jpg.rf.8f995e72273730fa5a6027ee557769ab.jpg",
+      "reasons": [
+        "image is missing required classes: maximum"
+      ]
+    },
+    {
+      "split": "train",
+      "image_id": 7367,
+      "file_name": "4529260-24_jpg.rf.ca3759f3d6c6521db33d7a42156c68eb.jpg",
+      "reasons": [
+        "image is missing required classes: minimum"
+      ]
+    },
+    {
+      "split": "train",
+      "image_id": 7376,
+      "file_name": "istockphoto-1271631693-612x612_jpg.rf.74e1e790aa0b059ce5489f367afb37fa.jpg",
+      "reasons": [
+        "image is missing required classes: maximum"
+      ]
+    },
+    {
+      "split": "train",
+      "image_id": 7466,
+      "file_name": "istockphoto-1332836893-612x612_jpg.rf.ef2985dcf921e393b4d13907b09bd095.jpg",
+      "reasons": [
+        "image is missing required classes: maximum"
+      ]
+    },
+    {
+      "split": "train",
+      "image_id": 7548,
+      "file_name": "40868b20d5424b22bfdd31865984b172_jpeg_jpg.rf.1ac51bb3ea3ef15200aae4619a92957f.jpg",
+      "reasons": [
+        "image is missing required classes: maximum"
+      ]
+    },
+    {
+      "split": "train",
+      "image_id": 7559,
+      "file_name": "240_F_278663360_qgbp5UJW67cKcKX56meDzaOBP8431Zeh_jpg.rf.160798894550fd66f5878fcf02cf69b5.jpg",
+      "reasons": [
+        "image is missing required classes: maximum"
+      ]
+    },
+    {
+      "split": "train",
+      "image_id": 7604,
+      "file_name": "IMG_6339_JPG_jpg.rf.d130f9f8bf6421a74ee720849edb20ee.jpg",
+      "reasons": [
+        "image is missing required classes: maximum"
+      ]
+    },
+    {
+      "split": "train",
+      "image_id": 7653,
+      "file_name": "40868b20d5424b22bfdd31865984b172_jpeg_jpg.rf.a66ebff644863d2d23db82107ffea9c8.jpg",
+      "reasons": [
+        "image is missing required classes: maximum"
+      ]
+    },
+    {
+      "split": "train",
+      "image_id": 7695,
+      "file_name": "48_jpeg_jpg.rf.877ae553b0253bef9c87084674d5ade1.jpg",
+      "reasons": [
+        "image is missing required classes: maximum"
+      ]
+    },
+    {
+      "split": "train",
+      "image_id": 7726,
+      "file_name": "40868b20d5424b22bfdd31865984b172_jpeg_jpg.rf.a01946ca351b26b50c0cdacce86e38ef.jpg",
+      "reasons": [
+        "image is missing required classes: maximum"
+      ]
+    },
+    {
+      "split": "train",
+      "image_id": 7807,
+      "file_name": "40868b20d5424b22bfdd31865984b172_jpeg_jpg.rf.86f7d6b72bdb20dec855dcdca8c7ffa8.jpg",
+      "reasons": [
+        "image is missing required classes: maximum"
+      ]
+    },
+    {
+      "split": "train",
+      "image_id": 7881,
+      "file_name": "4529260-24_jpg.rf.408a5baaa313013c29a8d2b203d04259.jpg",
+      "reasons": [
+        "image is missing required classes: minimum"
+      ]
+    },
+    {
+      "split": "train",
+      "image_id": 7906,
+      "file_name": "4529260-24_jpg.rf.4db91a2672d826d794aaf2f9e88335af.jpg",
+      "reasons": [
+        "image is missing required classes: minimum"
+      ]
+    },
+    {
+      "split": "train",
+      "image_id": 7928,
+      "file_name": "istockphoto-540208830-612x612_jpg.rf.0d4d1953921a7c0771154105389bd50e.jpg",
+      "reasons": [
+        "image is missing required classes: maximum"
+      ]
+    },
+    {
+      "split": "train",
+      "image_id": 7984,
+      "file_name": "istockphoto-119048610-612x612_jpg.rf.c347f12a8db6d34a2af7d573b1b26ac9.jpg",
+      "reasons": [
+        "image is missing required classes: maximum"
+      ]
+    },
+    {
+      "split": "train",
+      "image_id": 8110,
+      "file_name": "istockphoto-540208830-612x612_jpg.rf.c0206e05c770525895c4edeac5e2b221.jpg",
+      "reasons": [
+        "image is missing required classes: maximum"
+      ]
+    },
+    {
+      "split": "train",
+      "image_id": 8118,
+      "file_name": "IMG_6361_JPG_jpg.rf.c47865ac8b7679bebea3a720c705c6e4.jpg",
+      "reasons": [
+        "image is missing required classes: maximum"
+      ]
+    },
+    {
+      "split": "train",
+      "image_id": 8135,
+      "file_name": "240_F_258386509_PcJgP4gZpHcHMmmR1t1uG0ui6OQsxJUC_jpg.rf.1d26961a7a25f7fd906002a57a992e02.jpg",
+      "reasons": [
+        "image is missing required classes: maximum"
+      ]
+    },
+    {
+      "split": "train",
+      "image_id": 8276,
+      "file_name": "IMG_5967_JPG_jpg.rf.c72b31f344ef3c26d0236ee4c11b64f1.jpg",
+      "reasons": [
+        "image is missing required classes: maximum"
+      ]
+    },
+    {
+      "split": "train",
+      "image_id": 8308,
+      "file_name": "IMG_5967_JPG_jpg.rf.7ab6ff2a673f640d1f2c2ba4c6d361e0.jpg",
+      "reasons": [
+        "image is missing required classes: maximum"
+      ]
+    },
+    {
+      "split": "train",
+      "image_id": 8665,
+      "file_name": "40868b20d5424b22bfdd31865984b172_jpeg_jpg.rf.3a8e05a8d796cd16ee2c91bc86145869.jpg",
+      "reasons": [
+        "image is missing required classes: maximum"
+      ]
+    },
+    {
+      "split": "train",
+      "image_id": 8670,
+      "file_name": "c39cd510c5fd498fb0835eb36fedfb7f_jpeg_jpg.rf.7d8ff267a59233d5ec0e8442e926efba.jpg",
+      "reasons": [
+        "image is missing required classes: maximum"
+      ]
+    },
+    {
+      "split": "train",
+      "image_id": 8922,
+      "file_name": "istockphoto-540208830-612x612_jpg.rf.bccd44d940f13c17e5a18355102f2aee.jpg",
+      "reasons": [
+        "image is missing required classes: maximum"
+      ]
+    },
+    {
+      "split": "train",
+      "image_id": 9077,
+      "file_name": "istockphoto-119048610-612x612_jpg.rf.5b787e104f53002cc8a426e53c8b4e5e.jpg",
+      "reasons": [
+        "image is missing required classes: maximum"
+      ]
+    },
+    {
+      "split": "train",
+      "image_id": 9080,
+      "file_name": "Gauges-AMP-AMT-AMZ-TX-series_jpg.rf.8067da3a6bc1539ead7f82f09f829544.jpg",
+      "reasons": [
+        "image is missing required classes: maximum"
+      ]
+    },
+    {
+      "split": "train",
+      "image_id": 9186,
+      "file_name": "240_F_258386509_PcJgP4gZpHcHMmmR1t1uG0ui6OQsxJUC_jpg.rf.d9e136e2f2bb6cd2134f74fd61cdcadb.jpg",
+      "reasons": [
+        "image is missing required classes: maximum"
+      ]
+    },
+    {
+      "split": "train",
+      "image_id": 9458,
+      "file_name": "240_F_278663360_qgbp5UJW67cKcKX56meDzaOBP8431Zeh_jpg.rf.041c5d4c6da312df38182da452f2d9fb.jpg",
+      "reasons": [
+        "image is missing required classes: maximum"
+      ]
+    },
+    {
+      "split": "train",
+      "image_id": 9583,
+      "file_name": "istockphoto-540208830-612x612_jpg.rf.13c593132bc2438510c16d922766da94.jpg",
+      "reasons": [
+        "image is missing required classes: maximum"
+      ]
+    },
+    {
+      "split": "train",
+      "image_id": 9604,
+      "file_name": "Oil-Pressure-Gauge-A2C53413310-S__39334-1563979529_jpg.rf.bd72630c5706c3f36ad2969f4823191e.jpg",
+      "reasons": [
+        "image is missing required classes: maximum"
+      ]
+    },
+    {
+      "split": "train",
+      "image_id": 9619,
+      "file_name": "istockphoto-177506603-612x612_jpg.rf.c3dea06b9a72817e2a634c0a3611b9d8.jpg",
+      "reasons": [
+        "image is missing required classes: maximum"
+      ]
+    },
+    {
+      "split": "train",
+      "image_id": 9627,
+      "file_name": "istockphoto-1271631693-612x612_jpg.rf.76e94966fe2bc4a1a603b828c8c5b6f2.jpg",
+      "reasons": [
+        "image is missing required classes: maximum"
+      ]
+    },
+    {
+      "split": "train",
+      "image_id": 9687,
+      "file_name": "IMG_6361_JPG_jpg.rf.9b1494f5fad5d187227d2d36c3c4c9f0.jpg",
+      "reasons": [
+        "image is missing required classes: maximum"
+      ]
+    },
+    {
+      "split": "train",
+      "image_id": 9700,
+      "file_name": "istockphoto-1332836893-612x612_jpg.rf.5c5dbdf02ba56836f485fbb5e2c231e8.jpg",
+      "reasons": [
+        "image is missing required classes: maximum"
+      ]
+    },
+    {
+      "split": "train",
+      "image_id": 9741,
+      "file_name": "istockphoto-177506603-612x612_jpg.rf.20f9c3c2127019e99b67dc1b9bf55e6a.jpg",
+      "reasons": [
+        "image is missing required classes: maximum"
+      ]
+    },
+    {
+      "split": "train",
+      "image_id": 9978,
+      "file_name": "Gauges-AMP-AMT-AMZ-TX-series_jpg.rf.9c6ca5394517120d165917a3206701cf.jpg",
+      "reasons": [
+        "image is missing required classes: maximum"
+      ]
+    },
+    {
+      "split": "train",
+      "image_id": 10034,
+      "file_name": "IMG_6361_JPG_jpg.rf.03c92ca4717187f7e7728a30e84e4dd0.jpg",
+      "reasons": [
+        "image is missing required classes: maximum"
+      ]
+    },
+    {
+      "split": "train",
+      "image_id": 10213,
+      "file_name": "istockphoto-1271631693-612x612_jpg.rf.26ecf5e2a0c8970aa85c368805e5f905.jpg",
+      "reasons": [
+        "image is missing required classes: maximum"
+      ]
+    },
+    {
+      "split": "train",
+      "image_id": 10468,
+      "file_name": "istockphoto-119048610-612x612_jpg.rf.8d2ada52858a531bb90579dbc9e104f0.jpg",
+      "reasons": [
+        "image is missing required classes: maximum"
+      ]
+    },
+    {
+      "split": "train",
+      "image_id": 10690,
+      "file_name": "Oil-Pressure-Gauge-A2C53413310-S__39334-1563979529_jpg.rf.51be5f5bccc7b1aca92076abaf236a25.jpg",
+      "reasons": [
+        "image is missing required classes: maximum"
+      ]
+    },
+    {
+      "split": "train",
+      "image_id": 10713,
+      "file_name": "istockphoto-177506603-612x612_jpg.rf.d188594387a40822eb82aafbe9bf4478.jpg",
+      "reasons": [
+        "image is missing required classes: maximum"
+      ]
+    },
+    {
+      "split": "train",
+      "image_id": 10851,
+      "file_name": "7761374d7d614b8196a87ac9537e7c53_jpeg_jpg.rf.e882f47b007e16bf3b575c64631c4a72.jpg",
+      "reasons": [
+        "image is missing required classes: minimum"
+      ]
+    },
+    {
+      "split": "train",
+      "image_id": 10863,
+      "file_name": "istockphoto-540208830-612x612_jpg.rf.31270a22fc184507e18510d31e45cf90.jpg",
+      "reasons": [
+        "image is missing required classes: maximum"
+      ]
+    },
+    {
+      "split": "train",
+      "image_id": 10914,
+      "file_name": "240_F_258386509_PcJgP4gZpHcHMmmR1t1uG0ui6OQsxJUC_jpg.rf.2927f47c57d133a52b1d3309be69dd5d.jpg",
+      "reasons": [
+        "image is missing required classes: maximum"
+      ]
+    },
+    {
+      "split": "train",
+      "image_id": 11039,
+      "file_name": "40868b20d5424b22bfdd31865984b172_jpeg_jpg.rf.4279796e716d6c317ee75cb7df93f6e0.jpg",
+      "reasons": [
+        "image is missing required classes: maximum"
+      ]
+    },
+    {
+      "split": "train",
+      "image_id": 11410,
+      "file_name": "istockphoto-540208830-612x612_jpg.rf.08e804404bb5e5b748b2eca5a1e88f4e.jpg",
+      "reasons": [
+        "image is missing required classes: maximum"
+      ]
+    },
+    {
+      "split": "train",
+      "image_id": 11417,
+      "file_name": "IMG_6361_JPG_jpg.rf.63ce9c9255e5795c9f8e794ae85c0a5a.jpg",
+      "reasons": [
+        "image is missing required classes: maximum"
+      ]
+    },
+    {
+      "split": "train",
+      "image_id": 11542,
+      "file_name": "Oil-Pressure-Gauge-A2C53413310-S__39334-1563979529_jpg.rf.d563f7fb76aa8d173e0f09909f8396c6.jpg",
+      "reasons": [
+        "image is missing required classes: maximum"
+      ]
+    },
+    {
+      "split": "train",
+      "image_id": 11588,
+      "file_name": "48_jpeg_jpg.rf.c17a30e7777dc16f77cc0736a36e7dc0.jpg",
+      "reasons": [
+        "image is missing required classes: maximum"
+      ]
+    },
+    {
+      "split": "train",
+      "image_id": 11611,
+      "file_name": "40868b20d5424b22bfdd31865984b172_jpeg_jpg.rf.0fd90db3fb307844bbf0d85eaa5c7547.jpg",
+      "reasons": [
+        "image is missing required classes: maximum"
+      ]
+    },
+    {
+      "split": "train",
+      "image_id": 11702,
+      "file_name": "48_jpeg_jpg.rf.cca5a586108f0b38ef855f737f15dfd9.jpg",
+      "reasons": [
+        "image is missing required classes: maximum"
+      ]
+    },
+    {
+      "split": "train",
+      "image_id": 11957,
+      "file_name": "Oil-Pressure-Gauge-A2C53413310-S__39334-1563979529_jpg.rf.c68508f602ca6f93b42a4ba9aa8894b0.jpg",
+      "reasons": [
+        "image is missing required classes: maximum"
+      ]
+    },
+    {
+      "split": "train",
+      "image_id": 12021,
+      "file_name": "240_F_498591925_ViMzD0Y8mukwD44KhmLMQHOSUlakFAgj_jpg.rf.849c4e7e6bd9a2850cf1d8e1a3311236.jpg",
+      "reasons": [
+        "image is missing required classes: minimum"
+      ]
+    },
+    {
+      "split": "train",
+      "image_id": 12141,
+      "file_name": "7761374d7d614b8196a87ac9537e7c53_jpeg_jpg.rf.b39e1152eb578c1c9508a7692a810d2a.jpg",
+      "reasons": [
+        "image is missing required classes: minimum"
+      ]
+    },
+    {
+      "split": "train",
+      "image_id": 12380,
+      "file_name": "istockphoto-540208830-612x612_jpg.rf.946089006366cdbc01e8dafbf70ee7b0.jpg",
+      "reasons": [
+        "image is missing required classes: maximum"
+      ]
+    },
+    {
+      "split": "train",
+      "image_id": 12394,
+      "file_name": "48_jpeg_jpg.rf.c1f3383bfcbb347c4ee28c3cdb9766fd.jpg",
+      "reasons": [
+        "image is missing required classes: maximum"
+      ]
+    },
+    {
+      "split": "train",
+      "image_id": 12459,
+      "file_name": "Oil-Pressure-Gauge-A2C53413310-S__39334-1563979529_jpg.rf.6b6f82085c0ca7cc5a0fbece32c2d106.jpg",
+      "reasons": [
+        "image is missing required classes: maximum"
+      ]
+    },
+    {
+      "split": "valid",
+      "image_id": 299,
+      "file_name": "istockphoto-119048610-612x612_jpg.rf.5b8d51329d69173cf75377599e2bad0a.jpg",
+      "reasons": [
+        "image is missing required classes: maximum"
+      ]
+    },
+    {
+      "split": "valid",
+      "image_id": 443,
+      "file_name": "Gauges-AMP-AMT-AMZ-TX-series_jpg.rf.aa35fe5cb568e277696fe5a9b56f3bb1.jpg",
+      "reasons": [
+        "image is missing required classes: maximum"
+      ]
+    },
+    {
+      "split": "valid",
+      "image_id": 568,
+      "file_name": "istockphoto-177506603-612x612_jpg.rf.f40b763bf7b18fab79b88e83274882d3.jpg",
+      "reasons": [
+        "image is missing required classes: maximum"
+      ]
+    },
+    {
+      "split": "valid",
+      "image_id": 670,
+      "file_name": "IMG_6339_JPG_jpg.rf.2c3c7b51d425b7552ad1d9d91aee5806.jpg",
+      "reasons": [
+        "image is missing required classes: maximum"
+      ]
+    },
+    {
+      "split": "valid",
+      "image_id": 1072,
+      "file_name": "istockphoto-119048610-612x612_jpg.rf.2a15a36c16c22541eaa0c9aa2903ad80.jpg",
+      "reasons": [
+        "image is missing required classes: maximum"
+      ]
+    },
+    {
+      "split": "valid",
+      "image_id": 1192,
+      "file_name": "7761374d7d614b8196a87ac9537e7c53_jpeg_jpg.rf.b2be18dcd8ae4784d6c375ba7874f5ac.jpg",
+      "reasons": [
+        "image is missing required classes: minimum"
+      ]
+    },
+    {
+      "split": "valid",
+      "image_id": 1234,
+      "file_name": "48_jpeg_jpg.rf.7578a026422dbf0d43c7dc74a8aec2ad.jpg",
+      "reasons": [
+        "image is missing required classes: maximum"
+      ]
+    },
+    {
+      "split": "valid",
+      "image_id": 1256,
+      "file_name": "Oil-Pressure-Gauge-A2C53413310-S__39334-1563979529_jpg.rf.c36c4fc21e3f2817e4fe3a31d6713389.jpg",
+      "reasons": [
+        "image is missing required classes: maximum"
+      ]
+    },
+    {
+      "split": "valid",
+      "image_id": 1332,
+      "file_name": "IMG_6339_JPG_jpg.rf.880937f9b09d03ed5a88bb9c4d9d4437.jpg",
+      "reasons": [
+        "image is missing required classes: maximum"
+      ]
+    },
+    {
+      "split": "valid",
+      "image_id": 1351,
+      "file_name": "istockphoto-1271631693-612x612_jpg.rf.eee9e60d0475e61955d5748ac41edf74.jpg",
+      "reasons": [
+        "image is missing required classes: maximum"
+      ]
+    },
+    {
+      "split": "valid",
+      "image_id": 1413,
+      "file_name": "Oil-Pressure-Gauge-A2C53413310-S__39334-1563979529_jpg.rf.21251e834de431695ee84efe7d0af8fe.jpg",
+      "reasons": [
+        "image is missing required classes: maximum"
+      ]
+    },
+    {
+      "split": "valid",
+      "image_id": 1449,
+      "file_name": "240_F_498591925_ViMzD0Y8mukwD44KhmLMQHOSUlakFAgj_jpg.rf.7875d0035ebfd7dd5b0a6a22ae984d4c.jpg",
+      "reasons": [
+        "image is missing required classes: minimum"
+      ]
+    },
+    {
+      "split": "valid",
+      "image_id": 1601,
+      "file_name": "Oil-Pressure-Gauge-A2C53413310-S__39334-1563979529_jpg.rf.0dc2203c72c6534637717a2e9c4c47ac.jpg",
+      "reasons": [
+        "image is missing required classes: maximum"
+      ]
+    },
+    {
+      "split": "valid",
+      "image_id": 1856,
+      "file_name": "IMG_6361_JPG_jpg.rf.d2aa64c90b65d65e8871c963e36eac84.jpg",
+      "reasons": [
+        "image is missing required classes: maximum"
+      ]
+    },
+    {
+      "split": "valid",
+      "image_id": 1881,
+      "file_name": "240_F_278663360_qgbp5UJW67cKcKX56meDzaOBP8431Zeh_jpg.rf.a4c317fd99fc0956557e084d6d136ed0.jpg",
+      "reasons": [
+        "image is missing required classes: maximum"
+      ]
+    },
+    {
+      "split": "valid",
+      "image_id": 1923,
+      "file_name": "7761374d7d614b8196a87ac9537e7c53_jpeg_jpg.rf.f0be770900c39e64720a17e4ddd2ddbc.jpg",
+      "reasons": [
+        "image is missing required classes: minimum"
+      ]
+    },
+    {
+      "split": "valid",
+      "image_id": 2088,
+      "file_name": "istockphoto-540208830-612x612_jpg.rf.28e2e89bcc68474b0a0b782ea75a7b0c.jpg",
+      "reasons": [
+        "image is missing required classes: maximum"
+      ]
+    },
+    {
+      "split": "valid",
+      "image_id": 2206,
+      "file_name": "240_F_498591925_ViMzD0Y8mukwD44KhmLMQHOSUlakFAgj_jpg.rf.7e85d58a9fd10aba826fa40521bc07bb.jpg",
+      "reasons": [
+        "image is missing required classes: minimum"
+      ]
+    },
+    {
+      "split": "valid",
+      "image_id": 2239,
+      "file_name": "istockphoto-177506603-612x612_jpg.rf.8074245058a4fdbc2e236992209ae399.jpg",
+      "reasons": [
+        "image is missing required classes: maximum"
+      ]
+    },
+    {
+      "split": "valid",
+      "image_id": 2300,
+      "file_name": "7761374d7d614b8196a87ac9537e7c53_jpeg_jpg.rf.aaf8e199c7f604b94ccfd418ae2b2b39.jpg",
+      "reasons": [
+        "image is missing required classes: minimum"
+      ]
+    },
+    {
+      "split": "valid",
+      "image_id": 2333,
+      "file_name": "istockphoto-1308948309-612x612_jpg.rf.c86e4ab8af875400784d88d243c20645.jpg",
+      "reasons": [
+        "image is missing required classes: maximum, minimum"
+      ]
+    },
+    {
+      "split": "valid",
+      "image_id": 2349,
+      "file_name": "istockphoto-1332836893-612x612_jpg.rf.5b3237e33e4c14050619e6086e43859b.jpg",
+      "reasons": [
+        "image is missing required classes: maximum"
+      ]
+    },
+    {
+      "split": "valid",
+      "image_id": 2426,
+      "file_name": "istockphoto-1332836893-612x612_jpg.rf.1762f2e40372492b1b95af33f002dce3.jpg",
+      "reasons": [
+        "image is missing required classes: maximum"
+      ]
+    },
+    {
+      "split": "valid",
+      "image_id": 2470,
+      "file_name": "IMG_6339_JPG_jpg.rf.44c195d673ffcc6dd121d57de0f90620.jpg",
+      "reasons": [
+        "image is missing required classes: maximum"
+      ]
+    },
+    {
+      "split": "valid",
+      "image_id": 2544,
+      "file_name": "istockphoto-119048610-612x612_jpg.rf.d030c28dbfc9abdbb4337a0201714a5c.jpg",
+      "reasons": [
+        "image is missing required classes: maximum"
+      ]
+    },
+    {
+      "split": "valid",
+      "image_id": 2603,
+      "file_name": "istockphoto-119048610-612x612_jpg.rf.a61d7be8059f1fc3a9abcdcdafed08d2.jpg",
+      "reasons": [
+        "image is missing required classes: maximum"
+      ]
+    },
+    {
+      "split": "valid",
+      "image_id": 2637,
+      "file_name": "istockphoto-540208830-612x612_jpg.rf.704dd54343cbc6318ad285d96c5a9c34.jpg",
+      "reasons": [
+        "image is missing required classes: maximum"
+      ]
+    },
+    {
+      "split": "valid",
+      "image_id": 2723,
+      "file_name": "istockphoto-540208830-612x612_jpg.rf.ad970947029018eff7c7662d6e5e75de.jpg",
+      "reasons": [
+        "image is missing required classes: maximum"
+      ]
+    },
+    {
+      "split": "valid",
+      "image_id": 2739,
+      "file_name": "istockphoto-119048610-612x612_jpg.rf.5bae68d50574c82ff48c64d512fe2800.jpg",
+      "reasons": [
+        "image is missing required classes: maximum"
+      ]
+    },
+    {
+      "split": "valid",
+      "image_id": 3039,
+      "file_name": "istockphoto-177506603-612x612_jpg.rf.847d797c62ec69e7496294b8e47e6caf.jpg",
+      "reasons": [
+        "image is missing required classes: maximum"
+      ]
+    },
+    {
+      "split": "valid",
+      "image_id": 3341,
+      "file_name": "40868b20d5424b22bfdd31865984b172_jpeg_jpg.rf.f0ce508b73cdcf17b9f7e3e84e0195d4.jpg",
+      "reasons": [
+        "image is missing required classes: maximum"
+      ]
+    },
+    {
+      "split": "valid",
+      "image_id": 3480,
+      "file_name": "240_F_278663360_qgbp5UJW67cKcKX56meDzaOBP8431Zeh_jpg.rf.8dfc75e34f90b156b54eac345ecbdbfe.jpg",
+      "reasons": [
+        "image is missing required classes: maximum"
+      ]
+    },
+    {
+      "split": "valid",
+      "image_id": 3481,
+      "file_name": "40868b20d5424b22bfdd31865984b172_jpeg_jpg.rf.cf9fe79c213a4402082c3bad2434f614.jpg",
+      "reasons": [
+        "image is missing required classes: maximum"
+      ]
+    },
+    {
+      "split": "valid",
+      "image_id": 3497,
+      "file_name": "4529260-24_jpg.rf.a1b005eda41e1c9f286f9f8f24734d31.jpg",
+      "reasons": [
+        "image is missing required classes: minimum"
+      ]
+    },
+    {
+      "split": "test",
+      "image_id": 1,
+      "file_name": "istockphoto-1332836893-612x612_jpg.rf.f1e59f3976facecfcbad07944faa1a98.jpg",
+      "reasons": [
+        "image is missing required classes: maximum"
+      ]
+    },
+    {
+      "split": "test",
+      "image_id": 63,
+      "file_name": "istockphoto-1271631693-612x612_jpg.rf.b1a06ddbaeb72f46552805105dad20f4.jpg",
+      "reasons": [
+        "image is missing required classes: maximum"
+      ]
+    },
+    {
+      "split": "test",
+      "image_id": 171,
+      "file_name": "istockphoto-1308948309-612x612_jpg.rf.83dd46c06b2a45e8322e5a34c3f59fe1.jpg",
+      "reasons": [
+        "image is missing required classes: maximum, minimum"
+      ]
+    },
+    {
+      "split": "test",
+      "image_id": 172,
+      "file_name": "Gauges-AMP-AMT-AMZ-TX-series_jpg.rf.b20e18568e023b668ff55c80519ae10a.jpg",
+      "reasons": [
+        "image is missing required classes: maximum"
+      ]
+    },
+    {
+      "split": "test",
+      "image_id": 197,
+      "file_name": "40868b20d5424b22bfdd31865984b172_jpeg_jpg.rf.168b2146d483c735abf9e11405eec18a.jpg",
+      "reasons": [
+        "image is missing required classes: maximum"
+      ]
+    },
+    {
+      "split": "test",
+      "image_id": 337,
+      "file_name": "IMG_6339_JPG_jpg.rf.f19d5760bfed83c79614610fc878cccf.jpg",
+      "reasons": [
+        "image is missing required classes: maximum"
+      ]
+    },
+    {
+      "split": "test",
+      "image_id": 453,
+      "file_name": "240_F_278663360_qgbp5UJW67cKcKX56meDzaOBP8431Zeh_jpg.rf.ca34c0759897ba909792c436f19f35d1.jpg",
+      "reasons": [
+        "image is missing required classes: maximum"
+      ]
+    },
+    {
+      "split": "test",
+      "image_id": 736,
+      "file_name": "IMG_6339_JPG_jpg.rf.8681c58afc7139d41ad5fb39f090bd96.jpg",
+      "reasons": [
+        "image is missing required classes: maximum"
+      ]
+    },
+    {
+      "split": "test",
+      "image_id": 839,
+      "file_name": "240_F_498591925_ViMzD0Y8mukwD44KhmLMQHOSUlakFAgj_jpg.rf.b689a32c37e5fde883cb6dfd2d2fe224.jpg",
+      "reasons": [
+        "image is missing required classes: minimum"
+      ]
+    },
+    {
+      "split": "test",
+      "image_id": 863,
+      "file_name": "7761374d7d614b8196a87ac9537e7c53_jpeg_jpg.rf.ecd318b1acf55207265b2ec94f4cecec.jpg",
+      "reasons": [
+        "image is missing required classes: minimum"
+      ]
+    },
+    {
+      "split": "test",
+      "image_id": 882,
+      "file_name": "IMG_6361_JPG_jpg.rf.e89835f99a670ce79d5971cdcb3d4b65.jpg",
+      "reasons": [
+        "image is missing required classes: maximum"
+      ]
+    },
+    {
+      "split": "test",
+      "image_id": 906,
+      "file_name": "istockphoto-1332836893-612x612_jpg.rf.d1cdbf00290b612430f7b792d47a3129.jpg",
+      "reasons": [
+        "image is missing required classes: maximum"
+      ]
+    },
+    {
+      "split": "test",
+      "image_id": 974,
+      "file_name": "IMG_6339_JPG_jpg.rf.c88ae50981d7cebb0e1ccf0314361e36.jpg",
+      "reasons": [
+        "image is missing required classes: maximum"
+      ]
+    },
+    {
+      "split": "test",
+      "image_id": 1112,
+      "file_name": "4529260-24_jpg.rf.e982efda13ab675500fec070c5554046.jpg",
+      "reasons": [
+        "image is missing required classes: minimum"
+      ]
+    },
+    {
+      "split": "test",
+      "image_id": 1113,
+      "file_name": "40868b20d5424b22bfdd31865984b172_jpeg_jpg.rf.db7829f26b6ba0fbf80955a25323deb3.jpg",
+      "reasons": [
+        "image is missing required classes: maximum"
+      ]
+    },
+    {
+      "split": "test",
+      "image_id": 1278,
+      "file_name": "istockphoto-1332836893-612x612_jpg.rf.478d05f1f45cc5d19596c32313bc671f.jpg",
+      "reasons": [
+        "image is missing required classes: maximum"
+      ]
+    },
+    {
+      "split": "test",
+      "image_id": 1356,
+      "file_name": "istockphoto-1332836893-612x612_jpg.rf.cc3cf915476cc4498069edbd52a2fec1.jpg",
+      "reasons": [
+        "image is missing required classes: maximum"
+      ]
+    },
+    {
+      "split": "test",
+      "image_id": 1498,
+      "file_name": "istockphoto-1271631693-612x612_jpg.rf.3c9e8bcc30f89f2e56033bc183c29984.jpg",
+      "reasons": [
+        "image is missing required classes: maximum"
+      ]
+    },
+    {
+      "split": "test",
+      "image_id": 1568,
+      "file_name": "48_jpeg_jpg.rf.08deb78f46447197f1642cd81b9c1766.jpg",
+      "reasons": [
+        "image is missing required classes: maximum"
+      ]
+    },
+    {
+      "split": "test",
+      "image_id": 1578,
+      "file_name": "240_F_258386509_PcJgP4gZpHcHMmmR1t1uG0ui6OQsxJUC_jpg.rf.0b3cc4bcf33a866c402cb5db5c86cfc2.jpg",
+      "reasons": [
+        "image is missing required classes: maximum"
+      ]
+    },
+    {
+      "split": "test",
+      "image_id": 1613,
+      "file_name": "40868b20d5424b22bfdd31865984b172_jpeg_jpg.rf.dbf40b4aedd0fde48c1550c27d8e0b7a.jpg",
+      "reasons": [
+        "image is missing required classes: maximum"
+      ]
+    },
+    {
+      "split": "test",
+      "image_id": 1661,
+      "file_name": "40868b20d5424b22bfdd31865984b172_jpeg_jpg.rf.6bbc72b5a5c921567211d3dae52729b2.jpg",
+      "reasons": [
+        "image is missing required classes: maximum"
+      ]
+    },
+    {
+      "split": "test",
+      "image_id": 1671,
+      "file_name": "240_F_498591925_ViMzD0Y8mukwD44KhmLMQHOSUlakFAgj_jpg.rf.ba581237f0274ca10eae6c11a3191d55.jpg",
+      "reasons": [
+        "image is missing required classes: minimum"
+      ]
+    },
+    {
+      "split": "test",
+      "image_id": 1740,
+      "file_name": "7761374d7d614b8196a87ac9537e7c53_jpeg_jpg.rf.318c99964791db8b04692f00f9323832.jpg",
+      "reasons": [
+        "image is missing required classes: minimum"
+      ]
+    },
+    {
+      "split": "test",
+      "image_id": 1765,
+      "file_name": "40868b20d5424b22bfdd31865984b172_jpeg_jpg.rf.fe8286b79dec7284f087349d4630c409.jpg",
+      "reasons": [
+        "image is missing required classes: maximum"
+      ]
+    },
+    {
+      "split": "test",
+      "image_id": 1793,
+      "file_name": "Oil-Pressure-Gauge-A2C53413310-S__39334-1563979529_jpg.rf.3848e7108f970eb1e763ac978e266efe.jpg",
+      "reasons": [
+        "image is missing required classes: maximum"
+      ]
+    }
+  ]
+}

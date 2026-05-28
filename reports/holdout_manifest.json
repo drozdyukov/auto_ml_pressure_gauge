@@ -1,0 +1,16 @@
+{
+  "seed": 42,
+  "holdout_count": 10,
+  "files": [
+    "17a2a7095bc34bb28506dbb02e618feb_jpeg_jpg.rf.5d179e04b18ad0748db55fd8984a47d0.jpg",
+    "IMG_5913_JPG_jpg.rf.cd89c510123fa65f01367c47b876908d.jpg",
+    "IMG_6088_JPG_jpg.rf.6ef9555d5ccbcebb8bd77fe5465bb098.jpg",
+    "Z11AL_fo9oy-JPG_jpg.rf.c9c155793759f760b321e56a94c44c60.jpg",
+    "istockphoto-1368799074-612x612_jpg.rf.1640764a916107f1463bb26ee2b72f1a.jpg",
+    "istockphoto-175513521-612x612_jpg.rf.4756fe8ffac339a9d6517deaf2bf069b.jpg",
+    "istockphoto-523966589-612x612_jpg.rf.f1f2fd1869a1ff757bcb90d7ac89860a.jpg",
+    "pressureGauge_368_jpg.rf.04aeb9122acf902161e910088dfbca5f.jpg",
+    "pressureGauge_85_jpg.rf.24785b4be7ee73ed5b1d6eb2540db357.jpg",
+    "pressureGauge_89_jpg.rf.1e84d299642b8fdd479ca5ab7ff30646.jpg"
+  ]
+}
