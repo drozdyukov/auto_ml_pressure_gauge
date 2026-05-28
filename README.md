@@ -252,7 +252,7 @@ runs/rtdetr/gauge_rtdetr_l_rtx3060_20260527_024713/val_batch0_pred.jpg
 
 ## Дообучение
 
-Дообучение стартует с уже обученного checkpoint `.pt`, но создает новый запуск и новые метрики:
+Дообучение стартует с уже обученного checkpoint `.pt` и создает новый запуск и новые метрики:
 
 ```powershell
 .\scripts\finetune.ps1 `
